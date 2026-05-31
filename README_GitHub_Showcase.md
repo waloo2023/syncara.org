@@ -21,14 +21,14 @@
 <p align="center">
 
 🇬🇧 <a href="#english">English</a> •
-🇸🇦 <a href="#arabic">العربية</a> •
-🇫🇷 <a href="#french">Français</a> •
-🇪🇸 <a href="#spanish">Español</a> •
-🇩🇪 <a href="#german">Deutsch</a> •
-🇹🇷 <a href="#turkish">Türkçe</a> •
-🇮🇩 <a href="#indonesian">Bahasa Indonesia</a> •
-🇮🇳 <a href="#hindi">हिन्दी</a> •
-🇵🇹 <a href="#portuguese">Português</a>
+🇸🇦 <a href="#العربية">العربية</a> •
+🇫🇷 <a href="#français">Français</a> •
+🇪🇸 <a href="#español">Español</a> •
+🇩🇪 <a href="#deutsch">Deutsch</a> •
+🇹🇷 <a href="#türkçe">Türkçe</a> •
+🇮🇩 <a href="#bahasa-indonesia">Bahasa Indonesia</a> •
+🇮🇳 <a href="#हिन्दी">हिन्दी</a> •
+🇵🇹 <a href="#português">Português</a>
 
 </p>
 
@@ -226,7 +226,7 @@ Syncara ऑडियो, सबटाइटल, ट्रांसक्रि�
 * इंटरैक्टिव वेवफॉर्म
 * लंबे ऑडियो का समर्थन
 * सबटाइटल निर्माण
-* लिरिक्स सिंक्रोनाइज़ेशन
+* लिरिक्स सिंक्रोناइज़ेशन
 * ट्रांसक्रिप्ट अलाइनमेंट
 
 ---
