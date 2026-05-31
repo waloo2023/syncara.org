@@ -1,70 +1,13 @@
-# Syncara | سينكارا 🎙️📝
+# Syncara 🎙️📝
 
 [English](#english) | [العربية](#العربية)
-
----
-
-## العربية
-
-<p align="center">
-  <!-- تأكد من رفع شعار الأداة في المستودع ووضع المسار الصحيح له هنا -->
-  <img src="logo.png" alt="Syncara Logo" width="180">
-</p>
-
-<p align="center">
-  <strong>منصة احترافية متكاملة لمزامنة الصوت مع الكلمات والنصوص مباشرة عبر المتصفح</strong>
-</p>
-
-<p align="center">
-  <a href="https://syncara.org"><strong>🚀 جرّب الأداة الآن على Syncara.org</strong></a>
-</p>
-
----
-
-### ما هي أداة Syncara؟
-**Syncara** هي محطة عمل احترافية (Workstation) قائمة بالكامل على المتصفح لمزامنة الملفات الصوتية مع النصوص والكلمات بدقة عالية وسرعة فائقة. تم تصميمها لتلبي احتياجات المحترفين وصناع المحتوى الذين يرغبون في إنشاء ملفات ترجمة متزامنة (Subtitles) أو نصوص تفاعلية متطابقة تماماً مع الجدول الزمني للصوت (Timeline)، مع الحفاظ على كامل خصوصية المستخدم حيث تتم جميع العمليات محلياً داخل المتصفح (Local-first & Privacy-first).
-
----
-
-### المميزات الرئيسية (Features) ✨
-* **مزامنة بصرية تفاعلية (Visual Timeline Sync):** لوحة زمنية متطورة (Timeline) تشبه برامج الصوت الاحترافية (DAWs) مثل Adobe Audition لضبط مواضع الكلمات على الموجة الصوتية بدقة بالغة وسحب وتغيير حجم مقاطع الكلمات بسهولة.
-* **عرض الموجات الصوتية بدقة فائقة (High-Performance Waveform):** عرض تفاعلي وسلس للموجات الصوتية باستخدام `WaveSurfer.js` مع معالجة محسنة ومحسنة الأداء للملفات الصوتية الطويلة (حتى 8 ساعات) دون إبطاء المتصفح.
-* **دعم روابط اليوتيوب (YouTube Support):** إمكانية لصق روابط يوتيوب واستخراج الصوت منها محلياً لمزامنته مباشرة دون الحاجة لرفع ملفات.
-* **الخصوصية أولاً (Privacy-First & Local-First):** لا يتم رفع ملفاتك الصوتية أو نصوصك إلى أي خادم (Server). كل شيء يتم معالجته محلياً في متصفحك باستخدام Web Workers و browser cache و IndexedDB.
-* **دعم لغات متعددة (i18n):** واجهة مستخدم متعددة اللغات تدعم العربية، الإنجليزية، الإسبانية، الفرنسية، واليابانية، مع دعم كامل للاتجاهات من اليمين إلى اليسار (RTL).
-* **اختصارات لوحة المفاتيح (Keyboard-First Workflow):** نظام اختصارات ذكي وسريع للتنقل والمزامنة والتعديل والتشغيل والإيقاف المؤقت دون الحاجة لاستخدام الماوس باستمرار.
-* **تصدير واستيراد مرن (Format Support):**
-  * **الاستيراد:** TXT, JSON, SRT أو نسخ ولصق النصوص مباشرة.
-  * **التصدير:** SRT, VTT, JSON, TXT, LRC.
-* **تصميم سينمائي أنيق (Cinematic UI):** واجهة مستخدم داكنة (Dark Mode) مريحة للعين مع لمسات زمردية (Emerald accents) وتأثيرات زجاجية (Glassmorphism) تمنحك شعوراً بالاحترافية والراحة أثناء الاستخدام الطويل.
-
----
-
-### لقطات من واجهة الأداة (Screenshots) 📸
-
-<p align="center">
-  <!-- تأكد من رفع لقطة الشاشة في المستودع ووضع المسار الصحيح لها هنا -->
-  <img src="screenshot.png" alt="Syncara Workspace Screenshot" width="100%">
-  <br>
-  <em>واجهة محطة العمل الاحترافية في Syncara وضبط المزامنة على الموجة الصوتية</em>
-</p>
-
----
-
-### طريقة البدء والاستخدام السريع 🚀
-
-1. تفضل بزيارة الموقع الرسمي للأداة: **[https://syncara.org](https://syncara.org)**
-2. قم برفع الملف الصوتي الخاص بك (أو الصق رابط يوتيوب).
-3. الصق النص أو ارفع ملف النص المراد مزامنته.
-4. استخدم لوحة التحكم والموجة الصوتية لتحديد مواضع الكلمات بدقة وسهولة.
-5. قم بتصدير النتيجة بالصيغة المفضلة لديك (مثل SRT أو VTT).
 
 ---
 
 ## English
 
 <p align="center">
-  <img src="logo.png" alt="Syncara Logo" width="180">
+  <img src="logo.webp" alt="Syncara Logo" width="180">
 </p>
 
 <p align="center">
@@ -92,14 +35,124 @@
   * **Import:** TXT, JSON, SRT, or plain text pasting.
   * **Export:** SRT, VTT, JSON, TXT, LRC.
 * **Cinematic Dark UI:** Beautiful modern dark interface with emerald accents, subtle animations, and glassmorphism styling.
-* **Multi-Language (i18n):** Native support for English, Arabic, Spanish, French, and Japanese (including RTL support).
+* **Comprehensive Multi-Language Support (i18n):** Native localized experience with full RTL (Right-to-Left) support, supporting:
+  * 🇬🇧 **English (en)** - *Default*
+  * 🇦🇪 **Arabic (ar)**
+  * 🇫🇷 **French (fr)**
+  * 🇪🇸 **Spanish (es)**
+  * 🇩🇪 **German (de)**
+  * 🇹🇷 **Turkish (tr)**
+  * 🇮🇩 **Indonesian (id)**
+  * 🇮🇳 **Hindi (hi)**
+  * 🇵🇹 **Portuguese (pt)**
 
 ---
 
 ### Screenshots 📸
 
 <p align="center">
-  <img src="screenshot.png" alt="Syncara Workspace Screenshot" width="100%">
+  <img src="public/screenshot.png" alt="Syncara Workspace Screenshot" width="100%">
   <br>
   <em>The professional workstation interface of Syncara showing waveform analysis and segment synchronization.</em>
 </p>
+
+---
+
+### Local Development & Setup 💻
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+### How to Deploy to GitHub Pages 🌐
+
+Since this is a Next.js application, you can deploy it as a Static Export on GitHub Pages:
+
+1. Open `next.config.ts` and set the output to export:
+   ```typescript
+   const nextConfig: NextConfig = {
+     output: 'export',
+     images: {
+       unoptimized: true,
+     },
+     // If deploying to a sub-path (e.g. username.github.io/repo-name):
+     // basePath: '/repo-name',
+   };
+   ```
+2. Run the build command:
+   ```bash
+   npm run build
+   ```
+3. This creates an `out` directory. Deploy the contents of this folder to your repository's `gh-pages` branch.
+
+---
+
+## العربية
+
+<p align="center">
+  <img src="public/logo.png" alt="Syncara Logo" width="180">
+</p>
+
+<p align="center">
+  <strong>منصة احترافية متكاملة لمزامنة الصوت مع الكلمات والنصوص مباشرة عبر المتصفح</strong>
+</p>
+
+<p align="center">
+  <a href="https://syncara.org"><strong>🚀 جرّب الأداة الآن على Syncara.org</strong></a>
+</p>
+
+---
+
+### ما هي أداة Syncara؟
+**Syncara** هي محطة عمل احترافية (Workstation) قائمة بالكامل على المتصفح لمزامنة الملفات الصوتية مع النصوص والكلمات بدقة عالية وسرعة فائقة. تم تصميمها لتلبي احتياجات المحترفين وصناع المحتوى الذين يرغبون في إنشاء ملفات ترجمة متزامنة (Subtitles) أو نصوص تفاعلية متطابقة تماماً مع الجدول الزمني للصوت (Timeline)، مع الحفاظ على كامل خصوصية المستخدم حيث تتم جميع العمليات محلياً داخل المتصفح (Local-first & Privacy-first).
+
+---
+
+### المميزات الرئيسية (Features) ✨
+* **مزامنة بصرية تفاعلية (Visual Timeline Sync):** لوحة زمنية متطورة (Timeline) تشبه برامج الصوت الاحترافية (DAWs) مثل Adobe Audition لضبط مواضع الكلمات على الموجة الصوتية بدقة بالغة وسحب وتغيير حجم مقاطع الكلمات بسهولة.
+* **عرض الموجات الصوتية بدقة فائقة (High-Performance Waveform):** عرض تفاعلي وسلس للموجات الصوتية باستخدام `WaveSurfer.js` مع معالجة محسنة ومحسنة الأداء للملفات الصوتية الطويلة (حتى 8 ساعات) دون إبطاء المتصفح.
+* **دعم روابط اليوتيوب (YouTube Support):** إمكانية لصق روابط يوتيوب واستخراج الصوت منها محلياً لمزامنته مباشرة دون الحاجة لرفع ملفات.
+* **الخصوصية أولاً (Privacy-First & Local-First):** لا يتم رفع ملفاتك الصوتية أو نصوصك إلى أي خادم (Server). كل شيء يتم معالجته محلياً في متصفحك باستخدام Web Workers و browser cache و IndexedDB.
+* **اختصارات لوحة المفاتيح (Keyboard-First Workflow):** نظام اختصارات ذكي وسريع للتنقل والمزامنة والتعديل والتشغيل والإيقاف المؤقت دون الحاجة لاستخدام الماوس باستمرار.
+* **تصدير واستيراد مرن (Format Support):**
+  * **الاستيراد:** TXT, JSON, SRT أو نسخ ولصق النصوص مباشرة.
+  * **التصدير:** SRT, VTT, JSON, TXT, LRC.
+* **تصميم سينمائي أنيق (Cinematic UI):** واجهة مستخدم داكنة (Dark Mode) مريحة للعين مع لمسات زمردية (Emerald accents) وتأثيرات زجاجية (Glassmorphism) تمنحك شعوراً بالاحترافية والراحة أثناء الاستخدام الطويل.
+* **دعم شامل للغات المتعددة (i18n):** واجهة مستخدم متعددة اللغات تدعم اللغات التالية بشكل كامل مع دعم الاتجاهات من اليمين إلى اليسار (RTL):
+  * 🇬🇧 **الإنجليزية (en)** - *الافتراضية*
+  * 🇦🇪 **العربية (ar)**
+  * 🇫🇷 **الفرنسية (fr)**
+  * 🇪🇸 **الإسبانية (es)**
+  * 🇩🇪 **الألمانية (de)**
+  * 🇹🇷 **التركية (tr)**
+  * 🇮🇩 **الإندونيسية (id)**
+  * 🇮🇳 **الهندية (hi)**
+  * 🇵🇹 **البرتغالية (pt)**
+
+---
+
+### لقطات من واجهة الأداة (Screenshots) 📸
+
+<p align="center">
+  <img src="public/screenshot.png" alt="Syncara Workspace Screenshot" width="100%">
+  <br>
+  <em>واجهة محطة العمل الاحترافية في Syncara وضبط المزامنة على الموجة الصوتية</em>
+</p>
+
+---
+
+### طريقة البدء والاستخدام السريع 🚀
+
+1. تفضل بزيارة الموقع الرسمي للأداة: **[https://syncara.org](https://syncara.org)**
+2. قم برفع الملف الصوتي الخاص بك (أو الصق رابط يوتيوب).
+3. الصق النص أو ارفع ملف النص المراد مزامنته.
+4. استخدم لوحة التحكم والموجة الصوتية لتحديد مواضع الكلمات بدقة وسهولة.
+5. قم بتصدير النتيجة بالصيغة المفضلة لديك (مثل SRT أو VTT).
