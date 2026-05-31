@@ -1,158 +1,275 @@
-# Syncara 🎙️📝
-
-[English](#english) | [العربية](#العربية)
-
----
-
-## English
+# Syncara
 
 <p align="center">
-  <img src="logo.webp" alt="Syncara Logo" width="180">
+  <img src="./logo.webp" alt="Syncara Logo" width="180">
 </p>
 
 <p align="center">
-  <strong>A professional browser-based Audio/Text Synchronization Workstation</strong>
+  <strong>Professional Audio & Subtitle Synchronization Workspace</strong>
 </p>
 
 <p align="center">
-  <a href="https://syncara.org"><strong>🚀 Try the tool now at Syncara.org</strong></a>
+  Create, edit, synchronize, and export perfectly timed subtitles, lyrics, transcripts, and captions.
 </p>
 
----
-
-### What is Syncara?
-**Syncara** is a professional, browser-based Audio/Text Synchronization Workstation. It is designed for creators, editors, and developers who need to synchronize spoken audio with text/lyrics/subtitles precisely and efficiently. Built with a local-first and privacy-first philosophy, all processing happens directly in your browser without uploading files to any external server.
-
----
-
-### Key Features ✨
-* **Visual Timeline Sync:** An advanced timeline reminiscent of professional audio workstations (DAWs) for dragging, resizing, and adjusting word boundaries directly on the waveform.
-* **High-Performance Waveforms:** Smooth rendering powered by `WaveSurfer.js` optimized with virtualized canvas rendering to support multi-hour audio files seamlessly without browser lag.
-* **YouTube Support:** Paste YouTube URLs to fetch and synchronize audio directly inside your browser.
-* **Privacy & Local-First:** No media or transcripts are uploaded to any server. Processing is done client-side using Web Workers, IndexedDB, and Blob URLs.
-* **Keyboard-First Workflow:** Fully optimized keyboard shortcuts to navigate, play, pause, split, and merge segments without touching your mouse.
-* **Multi-Format Support:**
-  * **Import:** TXT, JSON, SRT, or plain text pasting.
-  * **Export:** SRT, VTT, JSON, TXT, LRC.
-* **Cinematic Dark UI:** Beautiful modern dark interface with emerald accents, subtle animations, and glassmorphism styling.
-* **Comprehensive Multi-Language Support (i18n):** Native localized experience with full RTL (Right-to-Left) support, supporting:
-  * 🇬🇧 **English (en)** - *Default*
-  * 🇦🇪 **Arabic (ar)**
-  * 🇫🇷 **French (fr)**
-  * 🇪🇸 **Spanish (es)**
-  * 🇩🇪 **German (de)**
-  * 🇹🇷 **Turkish (tr)**
-  * 🇮🇩 **Indonesian (id)**
-  * 🇮🇳 **Hindi (hi)**
-  * 🇵🇹 **Portuguese (pt)**
-
----
-
-### Screenshots 📸
-
 <p align="center">
-  <img src="public/screenshot.png" alt="Syncara Workspace Screenshot" width="100%">
-  <br>
-  <em>The professional workstation interface of Syncara showing waveform analysis and segment synchronization.</em>
+  <a href="https://syncara.org"><strong>Open Syncara →</strong></a>
 </p>
 
 ---
 
-### Local Development & Setup 💻
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-### How to Deploy to GitHub Pages 🌐
-
-Since this is a Next.js application, you can deploy it as a Static Export on GitHub Pages:
-
-1. Open `next.config.ts` and set the output to export:
-   ```typescript
-   const nextConfig: NextConfig = {
-     output: 'export',
-     images: {
-       unoptimized: true,
-     },
-     // If deploying to a sub-path (e.g. username.github.io/repo-name):
-     // basePath: '/repo-name',
-   };
-   ```
-2. Run the build command:
-   ```bash
-   npm run build
-   ```
-3. This creates an `out` directory. Deploy the contents of this folder to your repository's `gh-pages` branch.
-
----
-
-## العربية
-
 <p align="center">
-  <img src="public/logo.png" alt="Syncara Logo" width="180">
-</p>
 
-<p align="center">
-  <strong>منصة احترافية متكاملة لمزامنة الصوت مع الكلمات والنصوص مباشرة عبر المتصفح</strong>
-</p>
+🇬🇧 <a href="#english">English</a> •
+🇸🇦 <a href="#arabic">العربية</a> •
+🇫🇷 <a href="#french">Français</a> •
+🇪🇸 <a href="#spanish">Español</a> •
+🇩🇪 <a href="#german">Deutsch</a> •
+🇹🇷 <a href="#turkish">Türkçe</a> •
+🇮🇩 <a href="#indonesian">Bahasa Indonesia</a> •
+🇮🇳 <a href="#hindi">हिन्दी</a> •
+🇵🇹 <a href="#portuguese">Português</a>
 
-<p align="center">
-  <a href="https://syncara.org"><strong>🚀 جرّب الأداة الآن على Syncara.org</strong></a>
 </p>
 
 ---
 
-### ما هي أداة Syncara؟
-**Syncara** هي محطة عمل احترافية (Workstation) قائمة بالكامل على المتصفح لمزامنة الملفات الصوتية مع النصوص والكلمات بدقة عالية وسرعة فائقة. تم تصميمها لتلبي احتياجات المحترفين وصناع المحتوى الذين يرغبون في إنشاء ملفات ترجمة متزامنة (Subtitles) أو نصوص تفاعلية متطابقة تماماً مع الجدول الزمني للصوت (Timeline)، مع الحفاظ على كامل خصوصية المستخدم حيث تتم جميع العمليات محلياً داخل المتصفح (Local-first & Privacy-first).
-
----
-
-### المميزات الرئيسية (Features) ✨
-* **مزامنة بصرية تفاعلية (Visual Timeline Sync):** لوحة زمنية متطورة (Timeline) تشبه برامج الصوت الاحترافية (DAWs) مثل Adobe Audition لضبط مواضع الكلمات على الموجة الصوتية بدقة بالغة وسحب وتغيير حجم مقاطع الكلمات بسهولة.
-* **عرض الموجات الصوتية بدقة فائقة (High-Performance Waveform):** عرض تفاعلي وسلس للموجات الصوتية باستخدام `WaveSurfer.js` مع معالجة محسنة ومحسنة الأداء للملفات الصوتية الطويلة (حتى 8 ساعات) دون إبطاء المتصفح.
-* **دعم روابط اليوتيوب (YouTube Support):** إمكانية لصق روابط يوتيوب واستخراج الصوت منها محلياً لمزامنته مباشرة دون الحاجة لرفع ملفات.
-* **الخصوصية أولاً (Privacy-First & Local-First):** لا يتم رفع ملفاتك الصوتية أو نصوصك إلى أي خادم (Server). كل شيء يتم معالجته محلياً في متصفحك باستخدام Web Workers و browser cache و IndexedDB.
-* **اختصارات لوحة المفاتيح (Keyboard-First Workflow):** نظام اختصارات ذكي وسريع للتنقل والمزامنة والتعديل والتشغيل والإيقاف المؤقت دون الحاجة لاستخدام الماوس باستمرار.
-* **تصدير واستيراد مرن (Format Support):**
-  * **الاستيراد:** TXT, JSON, SRT أو نسخ ولصق النصوص مباشرة.
-  * **التصدير:** SRT, VTT, JSON, TXT, LRC.
-* **تصميم سينمائي أنيق (Cinematic UI):** واجهة مستخدم داكنة (Dark Mode) مريحة للعين مع لمسات زمردية (Emerald accents) وتأثيرات زجاجية (Glassmorphism) تمنحك شعوراً بالاحترافية والراحة أثناء الاستخدام الطويل.
-* **دعم شامل للغات المتعددة (i18n):** واجهة مستخدم متعددة اللغات تدعم اللغات التالية بشكل كامل مع دعم الاتجاهات من اليمين إلى اليسار (RTL):
-  * 🇬🇧 **الإنجليزية (en)** - *الافتراضية*
-  * 🇦🇪 **العربية (ar)**
-  * 🇫🇷 **الفرنسية (fr)**
-  * 🇪🇸 **الإسبانية (es)**
-  * 🇩🇪 **الألمانية (de)**
-  * 🇹🇷 **التركية (tr)**
-  * 🇮🇩 **الإندونيسية (id)**
-  * 🇮🇳 **الهندية (hi)**
-  * 🇵🇹 **البرتغالية (pt)**
-
----
-
-### لقطات من واجهة الأداة (Screenshots) 📸
+<p align="center">
+  <img src="./screenshot.png" alt="Syncara Workspace" width="100%">
+</p>
 
 <p align="center">
-  <img src="public/screenshot.png" alt="Syncara Workspace Screenshot" width="100%">
-  <br>
-  <em>واجهة محطة العمل الاحترافية في Syncara وضبط المزامنة على الموجة الصوتية</em>
+  <em>Professional synchronization workspace for subtitles, lyrics, transcripts, and captions.</em>
 </p>
 
 ---
 
-### طريقة البدء والاستخدام السريع 🚀
+# English
 
-1. تفضل بزيارة الموقع الرسمي للأداة: **[https://syncara.org](https://syncara.org)**
-2. قم برفع الملف الصوتي الخاص بك (أو الصق رابط يوتيوب).
-3. الصق النص أو ارفع ملف النص المراد مزامنته.
-4. استخدم لوحة التحكم والموجة الصوتية لتحديد مواضع الكلمات بدقة وسهولة.
-5. قم بتصدير النتيجة بالصيغة المفضلة لديك (مثل SRT أو VTT).
+## Overview
+
+Syncara is a professional synchronization workspace designed for creators, translators, subtitle editors, educators, media teams, and accessibility specialists.
+
+It provides a visual environment for aligning audio with text at high precision, making it easy to create subtitles, captions, lyrics, transcripts, and synchronized content for any type of media.
+
+### Features
+
+* Precision Timeline Editing
+* Interactive Audio Waveforms
+* Multi-Hour Audio Support
+* Subtitle Creation & Editing
+* Lyrics Synchronization
+* Transcript Alignment
+* Keyboard-Optimized Workflow
+* Fast Import & Export
+* Privacy-Focused Architecture
+* Multi-Language Interface
+
+### Supported Formats
+
+**Import**
+
+* TXT
+* SRT
+* VTT
+* LRC
+* JSON
+* Plain Text
+
+**Export**
+
+* SRT
+* WebVTT
+* LRC
+* TXT
+* JSON
+
+### Privacy
+
+* Your content remains under your control.
+* Designed with privacy and data minimization principles.
+* No unnecessary collection of personal content.
+* Secure and efficient editing workflows.
+
+---
+
+# العربية
+
+## نظرة عامة
+
+Syncara هي منصة احترافية لمزامنة الصوت مع النصوص والترجمات والكلمات بدقة عالية.
+
+توفر بيئة عمل متقدمة لإنشاء الترجمات النصية، النصوص المتزامنة، ملفات الكلمات الغنائية، والمحتوى التفاعلي بسهولة واحترافية.
+
+### المميزات
+
+* محرر زمني احترافي
+* موجات صوتية تفاعلية
+* دعم الملفات الصوتية الطويلة
+* إنشاء وتحرير الترجمات
+* مزامنة الكلمات الغنائية
+* محاذاة النصوص والتفريغات
+* اختصارات لوحة مفاتيح احترافية
+* استيراد وتصدير مرن
+* خصوصية عالية
+* دعم متعدد اللغات
+
+### الخصوصية
+
+* ملفاتك تبقى تحت سيطرتك.
+* تصميم يركز على الخصوصية.
+* عدم جمع محتوى المستخدم دون حاجة.
+* بيئة عمل آمنة وفعالة.
+
+---
+
+# Français
+
+## Présentation
+
+Syncara est un espace de travail professionnel dédié à la synchronisation audio et texte.
+
+### Fonctionnalités
+
+* Édition précise sur timeline
+* Formes d’onde interactives
+* Support des fichiers audio longue durée
+* Création et édition de sous-titres
+* Synchronisation des paroles
+* Alignement des transcriptions
+* Flux de travail optimisé clavier
+* Importation et exportation rapides
+* Protection de la confidentialité
+
+---
+
+# Español
+
+## Descripción
+
+Syncara es un entorno profesional para sincronizar audio, subtítulos, transcripciones y letras con precisión.
+
+### Características
+
+* Edición avanzada en línea de tiempo
+* Formas de onda interactivas
+* Soporte para audio de larga duración
+* Creación y edición de subtítulos
+* Sincronización de letras
+* Alineación de transcripciones
+* Flujo optimizado con teclado
+* Importación y exportación rápida
+
+---
+
+# Deutsch
+
+## Übersicht
+
+Syncara ist eine professionelle Arbeitsumgebung zur Synchronisierung von Audio, Untertiteln, Transkripten und Liedtexten.
+
+### Funktionen
+
+* Präzise Timeline-Bearbeitung
+* Interaktive Wellenformen
+* Unterstützung langer Audiodateien
+* Untertitel-Bearbeitung
+* Liedtext-Synchronisierung
+* Transkript-Ausrichtung
+* Tastaturorientierter Workflow
+
+---
+
+# Türkçe
+
+## Genel Bakış
+
+Syncara, ses ve metin senkronizasyonu için profesyonel bir çalışma alanıdır.
+
+### Özellikler
+
+* Hassas zaman çizelgesi düzenleme
+* Etkileşimli dalga formları
+* Uzun ses kayıtları desteği
+* Altyazı oluşturma
+* Şarkı sözü senkronizasyonu
+* Transkript hizalama
+
+---
+
+# Bahasa Indonesia
+
+## Ringkasan
+
+Syncara adalah ruang kerja profesional untuk sinkronisasi audio, subtitle, transkrip, dan lirik.
+
+### Fitur
+
+* Timeline presisi tinggi
+* Waveform interaktif
+* Dukungan audio berdurasi panjang
+* Pembuatan subtitle
+* Sinkronisasi lirik
+* Penyelarasan transkrip
+
+---
+
+# हिन्दी
+
+## परिचय
+
+Syncara ऑडियो, सबटाइटल, ट्रांसक्रिप्ट और लिरिक्स सिंक्रोनाइज़ेशन के लिए एक पेशेवर कार्यक्षेत्र है।
+
+### विशेषताएँ
+
+* सटीक टाइमलाइन संपादन
+* इंटरैक्टिव वेवफॉर्म
+* लंबे ऑडियो का समर्थन
+* सबटाइटल निर्माण
+* लिरिक्स सिंक्रोनाइज़ेशन
+* ट्रांसक्रिप्ट अलाइनमेंट
+
+---
+
+# Português
+
+## Visão Geral
+
+Syncara é um ambiente profissional para sincronização de áudio, legendas, transcrições e letras.
+
+### Recursos
+
+* Edição precisa em timeline
+* Waveforms interativos
+* Suporte a áudios longos
+* Criação de legendas
+* Sincronização de letras
+* Alinhamento de transcrições
+
+---
+
+## Supported Languages
+
+| Language         | Code |
+| ---------------- | ---- |
+| English          | en   |
+| العربية          | ar   |
+| Français         | fr   |
+| Español          | es   |
+| Deutsch          | de   |
+| Türkçe           | tr   |
+| Bahasa Indonesia | id   |
+| हिन्दी           | hi   |
+| Português        | pt   |
+
+---
+
+## Website
+
+https://syncara.org
+
+---
+
+## License
+
+All Rights Reserved © Syncara
