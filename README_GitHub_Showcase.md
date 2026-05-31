@@ -35,7 +35,7 @@
 ---
 
 <p align="center">
-  <img src="./Screenshot from 2026-05-29 06-18-23.png" alt="Syncara Workspace" width="100%">
+  <img src="./Screenshot from 2026-05-31 05-54-18.png" alt="Syncara Workspace" width="100%">
 </p>
 
 <p align="center">
